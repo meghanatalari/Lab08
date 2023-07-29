@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student's Records</title>
+    <style>
+        * {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+        h1, form {
+            text-align: center;
+            padding: 5px;
+        }
+
+        input, button {
+            padding: 3px;
+            margin: 5px;
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <h1>Enter a new record</h1>
+    <form action="C:\Users\Lenovo\Desktop\Lab08\index.py" method="post">
+        <label for="fullname">Full Name :</label>
+        <input type="text" name="fullname"><br>
+        <label for="midterm1">Midterm #1:</label>
+        <input type="text" name="midterm1"><br>
+        <label for="midterm2">Midterm #2:</label>
+        <input type="text" name="midterm2"><br>
+        <label for="finalexam">Final Exam:</label>
+        <input type="text" name="finalexam"><br>
+        <button type="submit">Save</button>
+        <button onclick="display_records()">Display the records</button>
+    </form>
+    <h1>Delete a record</h1>
+    <form action="C:\Users\Lenovo\Desktop\Lab08\index.py" method="post">
+        <label for="fullname">Full Name :</label>
+        <input type="text" name="fullname"><br>
+        <button type="submit">Delete</button>
+    </form>
+</body>
+</html>
